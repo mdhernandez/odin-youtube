@@ -1,0 +1,277 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+.clickable:hover{
+	cursor: pointer;
+}
+
+/* Header */
+header{
+	height: 56px;
+	padding: 0 16px;
+	display: flex;
+	border: 1px solid black;
+	background-color: #242424;
+}
+
+form{
+	margin: auto auto auto 5%;
+	border: 1px solid #363636;
+	display: flex;
+	background-color: #0f0f0f; 
+}
+
+input.search{
+	display: inline-block;
+	font-family: 'Roboto', 'Noto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0;
+	margin-left: 4px;
+	width: 578px;
+	max-width: 100%;
+	color: #101010;
+	background-color:#0f0f0f; 
+	border: none;
+	float: left;
+}
+
+/*Header Images*/
+#search-button{
+	margin: 0;
+	display: inline;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+	width: 65px;
+	height: 28px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: #363636;
+	border-radius: 0 2px 2px 0;
+	background-color: #363636;
+}
+
+#magnifying-glass{
+	margin: auto;
+	padding: 1px 6px;
+	width: 24px;
+}
+
+#youtube{
+	width: 80px;
+	float: left;
+	display: flex;
+	margin-left: 24px;
+	margin-top: 8px;
+}
+
+#bars{
+	width: 24px;
+	height: 24px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+/*Video*/
+#video-div{
+	background-color: #0f0f0f	
+}
+
+iframe{
+	display: block;
+	margin: auto;
+}
+
+/*Column 1*/
+#column-1{
+	display: block;
+	float: left;
+	width: 65%;
+	margin-left: 7%;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#column-1 h3{
+	margin: 4px 0 8px 0;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	max-height: 48px;
+}
+.view-publish{
+	opacity: 0.6;
+}
+
+#show-more{
+	opacity: 0.7;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+/*Upload Info and Description*/
+
+#published{
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	
+}
+
+#published p{
+	opacity: 0.5;
+}
+
+#title-views{
+	width: 100%;
+	min-height: 85px;
+	border-bottom: 1px solid #eeeeef;
+	display: block;
+	float: left;
+}
+
+#upload-info{
+	display: block;
+	padding-top: 24px;
+	margin-bottom: 24px;
+	
+}
+
+#description-info{
+	margin-top: 24px;
+	float: right;
+	width: 94%;
+	display: block;
+	
+}
+
+#description-info h5{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#uploader{
+	width: 48px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 24px;
+}
+
+#descript-text{
+	opacity: 0.9;
+	font-size: 14px;
+	line-height:21px;
+	word-wrap: break-word;
+}
+
+
+
+/*Comments*/
+
+#disabled{
+	border-top: 1px solid #eeeeef;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	padding: 24px 16px 16px 16px;
+	text-align: center;
+	margin-top: 24px;
+	clear: both;
+	opacity: 1;
+}
+
+
+#comments{
+	margin: 0;
+}
+#comments input{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+/*Recommended Videos*/
+
+.recommended{
+	line-height: default;
+	padding: 0;
+	margin: 0;	
+}
+
+.recommended p {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	opacity: 0.7;
+}
+
+.recommended img{
+	display: flex;
+	float: left;
+}
+
+aside{
+	padding-top: 8px;
+	width: 25%;
+	float: right;
+}
+
+h5, aside p{
+  margin: 0 0 0 4px;
+  display: flex;
+  padding-left: 4px;
+}
+
+aside h5{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	max-height: 34px;
+	margin: 0 0 8px 4px;
+	overflow: hidden;
+	opacity: 0.9;
+}
+
+.rec-vid{
+	display: block;
+	height: 140px;
+	margin-bottom: 8px;
+	clear: both;
+}
+
+aside button{
+	width: 100%;
+	text-align: center;
+	background-color: #eeeeef;
+	font-size: 13px;
+	font-weight: 500;
+	opacity: 0.8;
+}
+
+#next{
+	opacity: 1;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
